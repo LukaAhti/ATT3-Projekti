@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Huoltojen seuranta</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
 
+  <header>
+    <h1>Huoltojen seuranta</h1>
+    <p>Seuraa laitteiden ja koneiden huoltoja helposti.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Lisää huoltokohde</h2>
+
+      <form id="deviceForm">
+        <label for="deviceName">Kohteen nimi</label>
+        <input type="text" id="deviceName" required>
+
+        <button type="submit">Lisää kohde</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Huoltokohteet</h2>
+      <div id="devicesContainer"></div>
+    </section>
+
+    <section class="card">
+      <h2>Tulevat huollot</h2>
+      <div id="upcomingContainer"></div>
+    </section>
+
+    <section class="card">
+      <h2>Myöhässä olevat huollot</h2>
+      <div id="overdueContainer"></div>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
