@@ -9,8 +9,7 @@ Sovellus testataan selaimessa.
 Esimerkkiselaimet:
 
 - Google Chrome
-- Microsoft Edge
-- Mozilla Firefox
+- Safari
 
 Sovellus ei vaadi palvelinta tai tietokantaa.
 
